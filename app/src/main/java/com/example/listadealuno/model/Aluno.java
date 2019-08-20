@@ -9,8 +9,7 @@ public class Aluno {
     private String telefone;
     private String email;
 
-    public Aluno(int id, String nome, String telefone, String email) {
-        this.id = id;
+    public Aluno(String nome, String telefone, String email) {
         this.nome = nome;
         this.telefone = telefone;
         this.email = email;
@@ -45,11 +44,19 @@ public class Aluno {
 
     @NonNull
     @Override
-    public String toString(){ return nome;}
+    public String toString() {
+        return nome;
+    }
 
-    public void setId(int id){ this.id = id;}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-    public int getId(){return id;}
+    public int getId() {
+        return id;
+    }
 
-    public  boolean temIdValido(){ return id > 0;}
+    public boolean temIdValido() {
+        return id > 0;
+    }
 }
