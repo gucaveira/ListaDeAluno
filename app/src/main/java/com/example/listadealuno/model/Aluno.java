@@ -2,7 +2,9 @@ package com.example.listadealuno.model;
 
 import androidx.annotation.NonNull;
 
-public class Aluno {
+import java.io.Serializable;
+
+public class Aluno implements Serializable {
 
     private int id = 0;
     private String nome;
