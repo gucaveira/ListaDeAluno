@@ -32,7 +32,7 @@ public class AlunoDAO {
         for (Aluno a :
                 alunos) {
             if (a.getId() == aluno.getId())
-            return a;
+                return a;
         }
         return null;
     }
