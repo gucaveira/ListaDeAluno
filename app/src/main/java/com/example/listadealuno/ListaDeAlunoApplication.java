@@ -5,6 +5,7 @@ import android.app.Application;
 import com.example.listadealuno.dao.AlunoDAO;
 import com.example.listadealuno.model.Aluno;
 
+@SuppressWarnings("WeakerAccess")
 public class ListaDeAlunoApplication extends Application {
 
     @Override
