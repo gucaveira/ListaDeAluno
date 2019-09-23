@@ -42,9 +42,9 @@ public class FormularioAlunoActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item) {
         int itemId = item.getItemId();
-        if (itemId == R.id.activity_fomulario_aluno_salvar) {
+        if (itemId == R.id.activity_formulario_aluno_menu_salvar) {
             finalizaFormulario();
         }
         return super.onOptionsItemSelected(item);
@@ -81,9 +81,9 @@ public class FormularioAlunoActivity extends AppCompatActivity {
 
 
     private void inicializacaoDosCampos() {
-        campoNome = findViewById(R.id.activity_fomulario_aluno_nome);
-        campoTelefone = findViewById(R.id.activity_fomulario_aluno_telefone);
-        campoEmail = findViewById(R.id.activity_fomulario_aluno_email);
+        campoNome = findViewById(R.id.activity_formulario_aluno_nome);
+        campoTelefone = findViewById(R.id.activity_formulario_aluno_telefone);
+        campoEmail = findViewById(R.id.activity_formulario_aluno_email);
     }
 
     private void preencheAluno() {
